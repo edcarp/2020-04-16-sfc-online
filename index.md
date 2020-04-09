@@ -323,7 +323,9 @@ please preview your site before committing, and make sure to run
 {% elsif site.carpentry == "lc" %}
 {% include lc/setup.html %}
 {% endif %}
-
+<p>
+Check if you have Python3 installed otherwise install Anaconda.
+</p>  
 <p>
 More informations on how to install Anaconda can be found <a href = "https://docs.anaconda.com/anaconda/install/"> here</a>.
 </p> 
