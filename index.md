@@ -215,18 +215,16 @@ http://pad.carpentries.org/YYYY-MM-DD-site
 where 'YYYY-MM-DD-site' is the identifier for your workshop,
 e.g., '2015-06-10-esu'.
 {% endcomment %}
-{% comment %}
+
 {% if page.collaborative_notes %}
-{% endcomment %}
 <h2 id="collaborative_notes">Collaborative Notes</h2>
 
 <p>
 We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
 </p>
 <hr/>
-{% comment %}
 {% endif %}
-{% endcomment %}
+
 
 {% comment %} 
 SURVEYS - DO NOT EDIT SURVEY LINKS 
